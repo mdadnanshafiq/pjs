@@ -1,16 +1,9 @@
-let arr = [];
-let sum = 0;
 let i = 1;
 
 while (i >= 1) {
-    arr.push(i)
-    sum += i;
     console.log(i);
-    if () {
+    if (i - 1 > Math.sqrt(i)) {
         break;
     }
     i++;
 }
-
-console.log(arr);
-console.log(sum);
