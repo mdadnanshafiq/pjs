@@ -1,4 +1,4 @@
-function average(a, b) {
+function make_avg(a, b) {
     let sum = 0;
     for (let i of a) {
         sum = sum + i;
@@ -10,4 +10,4 @@ function average(a, b) {
 let arr = [10, 20, 30, 40, 50];
 let len = arr.length;
 
-console.log(average(arr, len));
+console.log(make_avg(arr, len));
