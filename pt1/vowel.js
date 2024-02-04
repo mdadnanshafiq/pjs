@@ -1,5 +1,5 @@
 function vowel(a) {
-    b = a.toLowerCase();
+    let b = a.toLowerCase();
     let sum = 0;
     for (let i of b) {
         if (i === 'a' || i === 'e' || i === 'i' || i === 'o' || i === 'u') {
